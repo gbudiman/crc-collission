@@ -1,5 +1,5 @@
 class Crc
-  attr_accessor :crc_bits, :display_steps, :dataword, :dataword_bit_size
+  attr_accessor :crc_bits, :display_steps, :dataword, :dataword_bit_size, :generator
   attr_reader :remainder
 
   def initialize
